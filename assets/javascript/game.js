@@ -26,3 +26,28 @@ $("#score").text(currentScore);
 
 $("#numwins").text(`Number of wins: ${numberOfWins}`);
 $("#numlosses").text(`Number of losses: ${numberOfLosses}`);
+
+
+//blue button clicked
+$(".btn1").on("click", function () {
+    currentScore += blue;
+    console.log("blue ", blue);
+});
+
+//diamond button clicked
+$(".btn2").on("click", function () {
+    currentScore += diamond;
+    console.log("diamond ", diamond);
+});
+
+//purple button clicked
+$(".btn3").on("click", function () {
+    currentScore += purple;
+    console.log("purple ", purple);
+});
+
+//yellow button clicked
+$(".btn4").on("click", function () {
+    currentScore += yellow;
+    console.log("yellow ", yellow);
+});
