@@ -34,6 +34,8 @@ $("#numlosses").text(`Number of losses: ${numberOfLosses}`);
 
 
 
+
+
 //blue button clicked
 $(".btn1").on("click", function () {
     console.log("currentscorebefore ", currentScore);
@@ -69,7 +71,7 @@ $(".btn4").on("click", function () {
 });
 
 
-if (currentScore = targetValue) {
+if (currentScore === targetValue) {
     win = true;
     numberOfWins++;
     $("#numwins").text(`Number of wins: ${numberOfWins}`);
