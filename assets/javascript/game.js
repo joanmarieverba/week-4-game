@@ -49,7 +49,7 @@ function reset () {
 
 //blue button clicked
 $(".btn1").on("click", function () {
-    
+    $("#winorlossnotice").empty();
     currentScore += blue;
     $("#score").text(currentScore);
     checkForEndOfGame ();
@@ -57,24 +57,24 @@ $(".btn1").on("click", function () {
 
 //diamond button clicked
 $(".btn2").on("click", function () {
+    $("#winorlossnotice").empty();
     currentScore += diamond;
-    console.log("diamond ", diamond);
     $("#score").text(currentScore);
     checkForEndOfGame();
 });
 
 //purple button clicked
 $(".btn3").on("click", function () {
+    $("#winorlossnotice").empty();
     currentScore += purple;
-    console.log("purple ", purple);
     $("#score").text(currentScore);
     checkForEndOfGame();
 });
 
 //yellow button clicked
 $(".btn4").on("click", function () {
+    $("#winorlossnotice").empty();
     currentScore += yellow;
-    console.log("yellow ", yellow);
     $("#score").text(currentScore);
     checkForEndOfGame();
 });
