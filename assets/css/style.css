@@ -1,5 +1,5 @@
 body {
-    background-image: url("crystal-background.jpg");
+    background-image: url("../images/crystal-background.jpg");
     min-height: 100%;
 }
 
@@ -49,7 +49,7 @@ h4 {
 .btn1 {
     height: 75px;
     width: 75px;
-    background-image: url('blue-crystal.jpg');
+    background-image: url('../images/blue-crystal.jpg');
     background-repeat: no-repeat;
     background-size: 75px 75px;
 }
@@ -57,7 +57,7 @@ h4 {
 .btn2 {
     height: 75px;
     width: 75px;
-    background-image: url('diamond-png.png');
+    background-image: url('../images/diamond-png.png');
     background-repeat: no-repeat;
     background-size: 75px 75px;
 }
@@ -65,7 +65,7 @@ h4 {
 .btn3 {
     height: 75px;
     width: 75px;
-    background-image: url('purple-crystal-png.png');
+    background-image: url('../images/purple-crystal-png.png');
     background-repeat: no-repeat;
     background-size: 75px 75px;
 }
@@ -73,7 +73,7 @@ h4 {
 .btn4 {
     height: 75px;
     width: 75px;
-    background-image: url('yellow-crystal.jpg');
+    background-image: url('../images/yellow-crystal.jpg');
     background-repeat: no-repeat;
     background-size: 75px 75px;
 }

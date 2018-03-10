@@ -81,17 +81,15 @@ $(".btn4").on("click", function () {
 
 function checkForEndOfGame () {
     if (currentScore === targetValue) {
-        $("#winorlossnotice").text("Success!! You won!");
+        $("#winorlossnotice").text("Success!! You won! Game reset...try again");
         numberOfWins++;
         $("#numwins").text(`Number of wins: ${numberOfWins}`);
         reset ();
     }
     if (currentScore > targetValue) {
-        $("#winorlossnotice").text("Sorry!! You lost!");
+        $("#winorlossnotice").text("Sorry!! You lost! Game reset...try again");
         numberOfLosses++;
         $("#numlosses").text(`Number of losses: ${numberOfLosses}`);
         reset ();
     }
 }
-
-
