@@ -6,4 +6,6 @@ Crystals Collector Game
       There are four crystals. By clicking on a crystal, you will add a specific number of points to your total score
       You win the game by matching your total to the target number. You lose the game if your total score goes above the target number
       The value of each crystal is hidden from you until you click on it.
-      Each time when the game starts, the game will change the target value and the value of each crystal.
+      Each time when the game starts, the game will change the target value and the value of each crystal.  
+Demo at: <a href="http://joanmarieverba.name/crystalgame/">http://joanmarieverba.name/crystalgame/</a>  
+![alt text](Crystals-screen.jpg) 
